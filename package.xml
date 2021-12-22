@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+<name>robotarm</name>
+<version>1.0.0</version>
+<description>Lynxmotion AL5D</description>
+<maintainer email="W.Bakker2@student.han.nl">Wilrick</maintainer>
+<maintainer email="HS.terMaat@student.han.nl">Sandra</maintainer>
+<license>GNU General Public License v3.0</license>
+
+<buildtool_depend>ament_cmake</buildtool_depend>
+
+<depend>rclcpp</depend>
+
+<test_depend>ament_lint_auto</test_depend>
+<test_depend>ament_lint_common</test_depend>
+
+<!-- Required for ROS2 custom messages -->
+<build_depend>rosidl_default_generators</build_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+
+<export>
+  <build_type>ament_cmake</build_type>
+</export>
+</package>
